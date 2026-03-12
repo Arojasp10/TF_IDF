@@ -20,7 +20,7 @@ text_input = st.text_area(
     "The sun is a star.\nThe earth is a planet.\nThe sun and the earth are in the universe."
 )
 
-question = st.text_input("Escribe una pregunta (en inglés):", "Who is playing?")
+question = st.text_input("Escribe una pregunta (en inglés):", "Where they are?")
 
 # Inicializar stemmer para inglés
 stemmer = SnowballStemmer("english")
